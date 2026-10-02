@@ -1,0 +1,26 @@
+# Dependencies and generated application files
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+*.log
+.DS_Store
+
+# Private environment files and runtime state
+.env*
+!.env.example
+.local/
+*.pem
+*.key
+
+# Local presentation, research and assistant artifacts
+output/
+.codex-build/
+.codex-finalizer/
+*.ppt
+*.pptx
+*.pdf
+SLIDES.md
+FACTS.md
+*speech*.md
+*speaker*.md
